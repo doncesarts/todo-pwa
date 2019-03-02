@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import List from "./components/List";
-import Profile from "./components/Profile";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 import logo from "./logo.svg";
 import greyProfileImg from './grey_profile.png'
-
+import Routes from "./common/routes"
 import "./App.css";
 
 class App extends Component {
@@ -53,8 +51,7 @@ class App extends Component {
           </span>
         </nav>
         <div className="px-3 py-2">
-              <Route path="/" exact component={List} />
-              <Route path="/profile" exact component={Profile} />
+        <Routes />
         </div>
       </div>
        </Router>
