@@ -1,8 +1,8 @@
 ## todo-pwa
 
-A Progresive Web App created with create-react-app
+A Progressive Web App created with create-react-app
 
-Intructions:
+Instructions:
 
 
 ## Setting up the web app
