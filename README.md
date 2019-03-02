@@ -5,9 +5,6 @@ A Progresive Web App created with create-react-app
 Intructions:
 
 
-
-http://localhost:4567/
-
 ## Setting up the project
 Clone the project from github , install, build and start it!
 
