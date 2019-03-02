@@ -54,6 +54,9 @@ export function register(config) {
   }
 }
 
+/**
+ * Register a valid service worker
+ */
 function registerValidSW(swUrl, config) {
   navigator.serviceWorker
     .register(swUrl)
